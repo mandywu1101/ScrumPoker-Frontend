@@ -1,0 +1,142 @@
+.image-Left {
+    width: 50%;
+}
+.create-user-icon{
+    width: 100%;
+}
+
+.create-user-form {
+    height: auto;
+}
+
+.mb-3 {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.title.form-label {
+
+}
+
+.user-account {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.title{
+    width: 100%;
+    font-size: 100%;
+    color: #fcfcfc;
+    border-bottom: #d1dae3;
+}
+
+.btn.btn-primary {
+    margin: 5px;
+    background: #388d85;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    margin: 5px;
+    background: #fcfcfc;
+    color: #388d85;
+    border: none;
+}
+
+#userStoryNo {
+    width: 50%;
+}
+
+#text-box {
+    width: 100%;
+}
+
+.card-header.card-header {
+    width: 100%;
+}
+
+.user-account.card {
+    margin-right: 20px;
+    height: auto;
+}
+#user-story-form{
+    margin-top: 20px;
+}
+.userstory-form {
+    width: 100%;
+    justify-content: center;
+    background-color: #272f3f;
+    align-items: center;
+    border: 2px solid rgba(95, 158, 160, 0);
+    border-radius: 20px;
+    padding: 30px 10px 30px 10px;
+    display: flex;
+}
+
+#user-story-form {
+    color: #d1dae3;
+}
+
+@media only screen and (max-width: 1000px) {
+    .image-Left {
+        width: 70%;
+    }
+
+    .whole-page {
+        background-color: #afcfd0;
+        padding: 20px;
+    }
+
+    .inner-container {
+        flex-wrap: wrap;
+    }
+
+    .userstory-form {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .whole-page {
+        background-color: #afcfd0;
+        padding: 30px;
+    }
+
+    .inner-container {
+        flex-wrap: wrap;
+    }
+
+    .userstory-form {
+        margin-top: -50px;
+        padding: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .image-Left {
+        width: 100%;
+    }
+
+    .whole-page {
+        background-color: #afcfd0;
+        padding: 30px;
+    }
+
+    .inner-container {
+        flex-wrap: wrap;
+    }
+
+    .userstory-form {
+        padding: 20px;
+        width: calc(100vw - 100px);
+    }
+}

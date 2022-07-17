@@ -1,0 +1,61 @@
+#login-form{
+    width: 100%;
+}
+
+.active-story-image{
+    width: 100%;
+}
+
+.inner-container-score-page{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.user-story-box{
+    font-size: 20px;
+    background: #16173d;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.content-part{
+
+}
+
+#user-no{
+   color: #ffffff;
+    font-weight: bold;
+}
+#user-story-content{
+    color: #ffffff;
+    font-weight: bold;
+}
+#story-point-box{
+    color: #388d85;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#submit-button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.submitted-story-point{
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 20px;
+    background: #434560;
+}
+
+.each-score{
+    border-bottom: 2px solid #16173d;
+    background: #ffffff;
+    color: #388d85;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}

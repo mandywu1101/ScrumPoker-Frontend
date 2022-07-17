@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {createContext, useState} from 'react';
 import './App.css';
+import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
+import LoginPage from "./ui/page/LoginPage";
+import CreateUserStoryPage from "./ui/page/CreateUserStoryPage";
+import LoadUserStoryPage from "./ui/page/LoadUserStoryPage";
+import UserAddScorePage from "./ui/page/UserAddScorePage";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
+    const [email, setEmail] = useState<string>("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+      <Routes>
+              <Route path="/" element={<LoginPage email={email} setEmail={setEmail}/>}/>
+              <Route path="/CreateUserStoryPage" element={<CreateUserStoryPage email={email}/>}/>
+              <Route path="/LoadUserStoryPage" element={<LoadUserStoryPage/>}/>
+              <Route path="/UserAddScorePage/:userStoryId" element={<UserAddScorePage email={email}/>}/>
+      </Routes>
+      </HashRouter>
     </div>
   );
 }
