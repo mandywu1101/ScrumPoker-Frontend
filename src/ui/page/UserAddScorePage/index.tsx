@@ -72,7 +72,7 @@ export default function UserAddScorePage(props: Props) {
                                 </div>
                                 <label id={"story-point-box"} htmlFor="username">Please Enter Your Story Point</label>
                                 <Form.Select onChange={handleScore} aria-label="select Score">
-                                    {/*<option>Open this select menu</option>*/}
+                                    <option>Open this select menu</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -91,7 +91,7 @@ export default function UserAddScorePage(props: Props) {
                                                     className={"each-score"}>{value.teamMemberAddress} rated: {value.score}</div>
 
                                             ))
-                                            : <div></div>}
+                                            : <div>Loading</div>}
                                 </div>
 
                             </form>

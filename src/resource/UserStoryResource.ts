@@ -10,6 +10,7 @@ export function adduserStoryResource(userStoryNo: string, email: string, userSto
         UserStory_description: userStory
     }).catch((error) => {
         console.log(error.message)
+
     })
 }
 
