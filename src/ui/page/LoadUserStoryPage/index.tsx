@@ -53,25 +53,8 @@ export default function LoadUserStoryPage() {
                                         </Col>
                                     )) : <div>Loading...</div>}
                             </Row>
+                            
 
-                            {/*// <Row xs={2} md={2} lg={6} className="g-4">*/}
-                            {/*//     <Col className={"column1"}>*/}
-                            {/*//         <Card key={value.UserStory_id} className={"each-card"}>*/}
-                            {/*//             <Card.Body>*/}
-                            {/*//                 <Card.Title>{value.UserStory_id}</Card.Title>*/}
-                            {/*//                 <Card.Text>*/}
-                            {/*//                     {value.UserStory_description}*/}
-                            {/*//                 </Card.Text>*/}
-                            {/*//                 <Link to={`/UserAddScorePage/${value.UserStory_id}`}><Button*/}
-                            {/*//                     variant="primary">Add*/}
-                            {/*//                     Score</Button></Link>*/}
-                            {/*//             </Card.Body>*/}
-                            {/*//         </Card>*/}
-                            {/*//     </Col>*/}
-                            {/*// </Row>*/}
-                            {/*        )*/}
-                            {/*    }) : <div>Loading...</div>*/}
-                            {/*}*/}
                             <div className={"add-story-button"}>
                             <Link to={`/CreateUserStoryPage`}><Button id={"add-user-story"}>Add User Story</Button></Link>
                             </div>

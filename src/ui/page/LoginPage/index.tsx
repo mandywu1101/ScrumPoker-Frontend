@@ -36,7 +36,7 @@ export default function LoginPage(props: Props) {
                     <div className="login">
                         <Form className={"login-form"}>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label className={"title"}>Login to Scrum Poker</Form.Label>
+                                <Form.Label className={"title-login"}>Login to Scrum Poker</Form.Label>
                                 <br/>
                                 <Form.Label className={"email-label"}>Please Enter Your Email</Form.Label>
                                 <Form.Control id="username" type="text" name="email" value={props.email}
